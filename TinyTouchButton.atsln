@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TinyTouchButton", "TinyTouchButton\TinyTouchButton.cproj", "{48E49E78-9DA0-4FBC-A5B9-376CE93D686B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E49E78-9DA0-4FBC-A5B9-376CE93D686B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{48E49E78-9DA0-4FBC-A5B9-376CE93D686B}.Debug|AVR.Build.0 = Debug|AVR
+		{48E49E78-9DA0-4FBC-A5B9-376CE93D686B}.Release|AVR.ActiveCfg = Release|AVR
+		{48E49E78-9DA0-4FBC-A5B9-376CE93D686B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
