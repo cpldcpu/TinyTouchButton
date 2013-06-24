@@ -17,3 +17,5 @@ Atmel Studio project and Eagle files are included.
 ### Circuit ###
 
 ![PCB](/circuit.jpg)
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1824c70576220e2bf270d4d408c6afa1 "githalytics.com")](http://githalytics.com/cpldcpu/TinyTouchButton)
