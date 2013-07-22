@@ -7,12 +7,12 @@ This is a small hardware project which utilizes the [light_WS2812 library](https
 to implement a touch-button controlled RGB-LED light. Only two output pins of the ATtiny 10 
 are used.
 
-Atmel Studio project and Eagle files are included.
+Look at the button in operation [here](http://www.youtube.com/watch?v=yGvvy51Po7Q)!
 
 ### PCB renders by OSH Park ###
 
-![PCB](/front side.jpg)
-![PCB](/rear side.jpg)
+![PCB](/front side.png)  
+![PCB](/rear side.png)
 
 ### Finished PCB ###
 
