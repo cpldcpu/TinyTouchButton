@@ -50,8 +50,8 @@ enum {tt_off=0,tt_on,tt_push,tt_release,tt_timeout};
 // The pin number corresponds to the analog input number ADCx. The port
 // is chosen automatically. (PORTB on ATtiny 5/10/13/25/45/85)
 
-#define tt_refpin 0		// Use PB0 as reference pin
-#define tt_refadc 0		// Use ADC0 as reference ADC input
+#define tt_refpin 2		// Use PB0 as reference pin
+#define tt_refadc 2		// Use ADC0 as reference ADC input
 #define tt_sensepin 1	// Use PB1 as sense pin
 #define tt_senseadc 1	// Use ADC1 as sense ADC input
 			

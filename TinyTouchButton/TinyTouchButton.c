@@ -29,6 +29,7 @@ int main(void)
 	CLKPSR=0;		// set cpu clock prescaler =1 (8Mhz) (attiny 4/5/9/10)
 
 	DDRB|=_BV(PB2);  // Output pin for WS2812
+	DDRB|=_BV(PB0);  // Data output
 
 	tinytouch_init();
 	
@@ -39,20 +40,22 @@ int main(void)
 		ctr++;
 			
 		if (ledon) {
-			led[0].r=255;led[0].g=255;led[0].b=255;  // light on: white on maximum brightness
+			led[0].r=128;led[0].g=128;led[0].b=128;  // light on: white on maximum brightness
 			led[1].r=255;led[1].g=255;led[1].b=255;
 			led[2].r=255;led[2].g=255;led[2].b=255;
 			led[3].r=255;led[3].g=255;led[3].b=255;
+			PORTB|=_BV(PB0);
 		} else {
 			led[0].r=0;led[0].g=0;led[0].b=0;		// 	light off: Attract mode.
 			led[1].r=0;led[1].g=0;led[1].b=0;
 			led[2].r=0;led[2].g=0;led[2].b=0;
 			led[3].r=0;led[3].g=0;led[3].b=0;
-			led[ctr>>6].b=((ctr&0x3f)^0x3f)>>4;  
-			led[((ctr>>6)+1)&3].b=(ctr&0x3f)>>4;
+			led[ctr>>6].g=((ctr&0x3f)^0x3f)>>3;  
+			led[((ctr>>6)+1)&3].g=(ctr&0x3f)>>3;
+			PORTB&=~_BV(PB0);
 		}		
 		
-		ws2812_sendarray_mask(led,3*4,_BV(PB2));
+		ws2812_sendarray_mask(led,12,_BV(PB2));
 		_delay_ms(3);
     }
 }
