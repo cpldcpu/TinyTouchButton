@@ -13,15 +13,13 @@ New: Hardware V2.0. See ![subfolder](https://github.com/cpldcpu/TinyTouchButton/
 
 ### Finished PCB V1.0 ###
 
-![PCB](/Finished PCB.jpg)
+![PCB](Finished PCB.jpg)
 
 ### Finished PCB V2.0 ###
 
-![PCB](/Eagle Hardware V2.0/tinytouchbutton_v2.jpg)
+![PCB](Eagle Hardware V2.0/tinytouchbutton_v2.jpg)
 
 
 ### Circuit ###
 
-![PCB](/circuit.jpg)
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5ced852159aaf3e064c89214d84cd6e7 "githalytics.com")](http://githalytics.com/cpldcpu/TinyTouchButton)
+![PCB](circuit.jpg)
