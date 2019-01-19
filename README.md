@@ -9,7 +9,7 @@ are used.
 
 Atmel Studio project and Eagle files are included.
 
-New: Hardware V2.0. See ![subfolder](https://github.com/cpldcpu/TinyTouchButton/tree/master/Eagle%20Hardware%20V2.0).
+New: Hardware V2.0. See [subfolder](https://github.com/cpldcpu/TinyTouchButton/tree/master/Eagle%20Hardware%20V2.0).
 
 ### Finished PCB V1.0 ###
 
