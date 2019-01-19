@@ -11,10 +11,10 @@ Look at the button in operation [here](http://www.youtube.com/watch?v=yGvvy51Po7
 
 ### PCB renders by OSH Park ###
 
-![PCB](/Eagle Hardware V2.0/front side.png)  
-![PCB](/Eagle Hardware V2.0/rear side.png)
+![PCB](/Eagle%20Hardware%20V2.0/front%20side.png)  
+![PCB](/Eagle%20Hardware%20V2.0/rear%20side.png)
 
 ### Finished PCB ###
 
-![PCB](/Eagle Hardware V2.0/tinytouchbutton_v2.jpg)
+![PCB](/Eagle%20Hardware%20V2.0/tinytouchbutton_v2.jpg)
 
